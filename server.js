@@ -14,7 +14,7 @@ const connection = mysql.createConnection({
 
 // this function will prompt choises and based on the user answers
 // another funtion will be called
-const promptChoises = () => {
+const promptChoices = () => {
   return inquirer
     .prompt([
       {
@@ -66,7 +66,7 @@ const promptChoises = () => {
 const viewDepartments = () => {
   connection.query("SELECT * FROM department;", (err, results) => {
     console.table(results);
-    promptChoises();
+    promptChoices();
   });
 };
 
@@ -74,7 +74,7 @@ const viewDepartments = () => {
 const viewRoles = () => {
   connection.query("SELECT * FROM role;", (err, results) => {
     console.table(results);
-    promptChoises();
+    promptChoices();
   });
 };
 
@@ -82,7 +82,7 @@ const viewRoles = () => {
 const viewEmployees = () => {
   connection.query("SELECT * FROM employee;", (err, results) => {
     console.table(results);
-    promptChoises();
+    promptChoices();
   });
 };
 
@@ -312,9 +312,9 @@ const updateRole = () => {
                 }
               );
             })
-            .then(() => promptChoises());
+            .then(() => promptChoices());
         });
     });
 };
 
-promptChoises();
+promptChoices();
