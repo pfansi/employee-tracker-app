@@ -35,6 +35,8 @@ The user will be able to view departments, roles, employees information and also
 ## Build process
 
 - created a repository and a readme.md file for the project
+- created the file structure
+- created the schema.sql to build the database structure and create table
 - ran npm init to install dependencies.
 - download the inquirer.
 
