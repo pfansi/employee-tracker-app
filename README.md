@@ -19,11 +19,11 @@
 
 ## Git Repository
 
-I created a git repository folder that will host the finished project. The Repository will be found [here](https://github.com/pfansi/team-profile-generator)
+I created a git repository folder that will host the finished project. The Repository will be found [here](https://github.com/pfansi/employee-tracker-app)
 
 ## Link to the walktrough video
 
-Application video [demo](https://watch.screencastify.com/v/SpbnDkIb8xDQhldp6Yk5)
+Application video [demo]()
 
 ## Description:
 
@@ -60,7 +60,7 @@ Run this command to install dependencies:
 Run this command to start the app:
 
   <pre><code>
-  node index.js
+  node server.js
   </code></pre>
 
 ## Tests:
@@ -89,8 +89,5 @@ Project is opened for contributions.
 
 ## Screenshots
 
-- Total test executed screenshot. br/
-  ![screenshot](./src/utils/total_test.JPG)
-
-- Screenshot of the finished application
-  ![screenshot](./src/utils/finished_app.JPG)
+- Screenshot of the database created
+  ![screenshot](./assets/images/database_created.JPG.JPG)
